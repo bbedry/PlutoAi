@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91D1F3E42B589057009E655F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D1F3E32B589057009E655F /* AppDelegate.swift */; };
+		91D1F3E62B589057009E655F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D1F3E52B589057009E655F /* SceneDelegate.swift */; };
+		91D1F3E82B589057009E655F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D1F3E72B589057009E655F /* ViewController.swift */; };
+		91D1F3EB2B589057009E655F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D1F3E92B589057009E655F /* Main.storyboard */; };
+		91D1F3ED2B589058009E655F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D1F3EC2B589058009E655F /* Assets.xcassets */; };
+		91D1F3F02B589058009E655F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D1F3EE2B589058009E655F /* LaunchScreen.storyboard */; };
+		91D1F3FB2B589058009E655F /* PlutoAiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D1F3FA2B589058009E655F /* PlutoAiTests.swift */; };
+		91D1F4052B589058009E655F /* PlutoAiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D1F4042B589058009E655F /* PlutoAiUITests.swift */; };
+		91D1F4072B589058009E655F /* PlutoAiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D1F4062B589058009E655F /* PlutoAiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91D1F3F72B589058009E655F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D1F3D82B589057009E655F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D1F3DF2B589057009E655F;
+			remoteInfo = PlutoAi;
+		};
+		91D1F4012B589058009E655F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D1F3D82B589057009E655F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D1F3DF2B589057009E655F;
+			remoteInfo = PlutoAi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91D1F3E02B589057009E655F /* PlutoAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlutoAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D1F3E32B589057009E655F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91D1F3E52B589057009E655F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91D1F3E72B589057009E655F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91D1F3EA2B589057009E655F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91D1F3EC2B589058009E655F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D1F3EF2B589058009E655F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91D1F3F12B589058009E655F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D1F3F62B589058009E655F /* PlutoAiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlutoAiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D1F3FA2B589058009E655F /* PlutoAiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlutoAiTests.swift; sourceTree = "<group>"; };
+		91D1F4002B589058009E655F /* PlutoAiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlutoAiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D1F4042B589058009E655F /* PlutoAiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlutoAiUITests.swift; sourceTree = "<group>"; };
+		91D1F4062B589058009E655F /* PlutoAiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlutoAiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91D1F3DD2B589057009E655F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D1F3F32B589058009E655F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D1F3FD2B589058009E655F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91D1F3D72B589057009E655F = {
+			isa = PBXGroup;
+			children = (
+				91D1F3E22B589057009E655F /* PlutoAi */,
+				91D1F3F92B589058009E655F /* PlutoAiTests */,
+				91D1F4032B589058009E655F /* PlutoAiUITests */,
+				91D1F3E12B589057009E655F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91D1F3E12B589057009E655F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91D1F3E02B589057009E655F /* PlutoAi.app */,
+				91D1F3F62B589058009E655F /* PlutoAiTests.xctest */,
+				91D1F4002B589058009E655F /* PlutoAiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91D1F3E22B589057009E655F /* PlutoAi */ = {
+			isa = PBXGroup;
+			children = (
+				91D1F3E32B589057009E655F /* AppDelegate.swift */,
+				91D1F3E52B589057009E655F /* SceneDelegate.swift */,
+				91D1F3E72B589057009E655F /* ViewController.swift */,
+				91D1F3E92B589057009E655F /* Main.storyboard */,
+				91D1F3EC2B589058009E655F /* Assets.xcassets */,
+				91D1F3EE2B589058009E655F /* LaunchScreen.storyboard */,
+				91D1F3F12B589058009E655F /* Info.plist */,
+			);
+			path = PlutoAi;
+			sourceTree = "<group>";
+		};
+		91D1F3F92B589058009E655F /* PlutoAiTests */ = {
+			isa = PBXGroup;
+			children = (
+				91D1F3FA2B589058009E655F /* PlutoAiTests.swift */,
+			);
+			path = PlutoAiTests;
+			sourceTree = "<group>";
+		};
+		91D1F4032B589058009E655F /* PlutoAiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91D1F4042B589058009E655F /* PlutoAiUITests.swift */,
+				91D1F4062B589058009E655F /* PlutoAiUITestsLaunchTests.swift */,
+			);
+			path = PlutoAiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91D1F3DF2B589057009E655F /* PlutoAi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D1F40A2B589058009E655F /* Build configuration list for PBXNativeTarget "PlutoAi" */;
+			buildPhases = (
+				91D1F3DC2B589057009E655F /* Sources */,
+				91D1F3DD2B589057009E655F /* Frameworks */,
+				91D1F3DE2B589057009E655F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlutoAi;
+			productName = PlutoAi;
+			productReference = 91D1F3E02B589057009E655F /* PlutoAi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91D1F3F52B589058009E655F /* PlutoAiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D1F40D2B589058009E655F /* Build configuration list for PBXNativeTarget "PlutoAiTests" */;
+			buildPhases = (
+				91D1F3F22B589058009E655F /* Sources */,
+				91D1F3F32B589058009E655F /* Frameworks */,
+				91D1F3F42B589058009E655F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D1F3F82B589058009E655F /* PBXTargetDependency */,
+			);
+			name = PlutoAiTests;
+			productName = PlutoAiTests;
+			productReference = 91D1F3F62B589058009E655F /* PlutoAiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91D1F3FF2B589058009E655F /* PlutoAiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D1F4102B589058009E655F /* Build configuration list for PBXNativeTarget "PlutoAiUITests" */;
+			buildPhases = (
+				91D1F3FC2B589058009E655F /* Sources */,
+				91D1F3FD2B589058009E655F /* Frameworks */,
+				91D1F3FE2B589058009E655F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D1F4022B589058009E655F /* PBXTargetDependency */,
+			);
+			name = PlutoAiUITests;
+			productName = PlutoAiUITests;
+			productReference = 91D1F4002B589058009E655F /* PlutoAiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91D1F3D82B589057009E655F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					91D1F3DF2B589057009E655F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					91D1F3F52B589058009E655F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 91D1F3DF2B589057009E655F;
+					};
+					91D1F3FF2B589058009E655F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 91D1F3DF2B589057009E655F;
+					};
+				};
+			};
+			buildConfigurationList = 91D1F3DB2B589057009E655F /* Build configuration list for PBXProject "PlutoAi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91D1F3D72B589057009E655F;
+			productRefGroup = 91D1F3E12B589057009E655F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91D1F3DF2B589057009E655F /* PlutoAi */,
+				91D1F3F52B589058009E655F /* PlutoAiTests */,
+				91D1F3FF2B589058009E655F /* PlutoAiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91D1F3DE2B589057009E655F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D1F3F02B589058009E655F /* LaunchScreen.storyboard in Resources */,
+				91D1F3ED2B589058009E655F /* Assets.xcassets in Resources */,
+				91D1F3EB2B589057009E655F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D1F3F42B589058009E655F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D1F3FE2B589058009E655F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91D1F3DC2B589057009E655F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D1F3E82B589057009E655F /* ViewController.swift in Sources */,
+				91D1F3E42B589057009E655F /* AppDelegate.swift in Sources */,
+				91D1F3E62B589057009E655F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D1F3F22B589058009E655F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D1F3FB2B589058009E655F /* PlutoAiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D1F3FC2B589058009E655F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D1F4052B589058009E655F /* PlutoAiUITests.swift in Sources */,
+				91D1F4072B589058009E655F /* PlutoAiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91D1F3F82B589058009E655F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D1F3DF2B589057009E655F /* PlutoAi */;
+			targetProxy = 91D1F3F72B589058009E655F /* PBXContainerItemProxy */;
+		};
+		91D1F4022B589058009E655F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D1F3DF2B589057009E655F /* PlutoAi */;
+			targetProxy = 91D1F4012B589058009E655F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91D1F3E92B589057009E655F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D1F3EA2B589057009E655F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91D1F3EE2B589058009E655F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D1F3EF2B589058009E655F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91D1F4082B589058009E655F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91D1F4092B589058009E655F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D1F40B2B589058009E655F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZCMJSHQ4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlutoAi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BedriDogan.PlutoAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		91D1F40C2B589058009E655F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZCMJSHQ4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlutoAi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BedriDogan.PlutoAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		91D1F40E2B589058009E655F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZCMJSHQ4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BedriDogan.PlutoAiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlutoAi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlutoAi";
+			};
+			name = Debug;
+		};
+		91D1F40F2B589058009E655F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZCMJSHQ4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BedriDogan.PlutoAiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlutoAi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlutoAi";
+			};
+			name = Release;
+		};
+		91D1F4112B589058009E655F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZCMJSHQ4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BedriDogan.PlutoAiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlutoAi;
+			};
+			name = Debug;
+		};
+		91D1F4122B589058009E655F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZCMJSHQ4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BedriDogan.PlutoAiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlutoAi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91D1F3DB2B589057009E655F /* Build configuration list for PBXProject "PlutoAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D1F4082B589058009E655F /* Debug */,
+				91D1F4092B589058009E655F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D1F40A2B589058009E655F /* Build configuration list for PBXNativeTarget "PlutoAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D1F40B2B589058009E655F /* Debug */,
+				91D1F40C2B589058009E655F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D1F40D2B589058009E655F /* Build configuration list for PBXNativeTarget "PlutoAiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D1F40E2B589058009E655F /* Debug */,
+				91D1F40F2B589058009E655F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D1F4102B589058009E655F /* Build configuration list for PBXNativeTarget "PlutoAiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D1F4112B589058009E655F /* Debug */,
+				91D1F4122B589058009E655F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91D1F3D82B589057009E655F /* Project object */;
+}
